@@ -1,0 +1,45 @@
+@media (max-width: 736px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        max-height: 735px;
+
+        &_header {
+            max-height: 258px;
+            padding-top: 238px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &_title {
+                max-width: 343px;
+                font-size: 32px;
+                line-height: 40px;
+                text-align: center;
+            }
+
+            &_text {
+                max-width: 343px;
+                font-size: 14px;
+                line-height: 22px;
+                margin-bottom: 32px;
+                text-align: center;
+            }
+        }
+    }
+
+    .product {
+        &_content {
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        &_img_play {
+            width: 100%;
+        }
+    }
+}
